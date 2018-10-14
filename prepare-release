@@ -120,3 +120,4 @@ fi
 # Make the new dev version final.
 sh -c "cd '$DIR' && git commit -qm 'Hello $NEXTTAG.'" || moo "Error committing $NEXTTAG."
 echo "Committed $NEXTTAG." >&2
+x
